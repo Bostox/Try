@@ -1,0 +1,128 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#111418] dark justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#111418] p-4 pb-2 justify-between">
+          <div class="text-white flex size-12 shrink-0 items-center" data-icon="ArrowLeft" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+            </svg>
+          </div>
+          <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Projects</h2>
+        </div>
+        <div class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDbR3HkTAvMT5cnr5MskR8Y1uUaW-N9T2OXr8bKU-m7iv8WkRlkc3smiuF63UVNCN8paSk7d3OUkyWvmIUWX5FxqZof5cv1hNKlHE9roVoehyG_jBe8cAKDYDhptVccZD2fDCQlS3c1ePKBInbucS3a3lRmKnmZabwmwSGiw2inWhFvI2RXxVDKda9O2yasaPR8EojoRhF3hUKc3sX9mZnVpV_W8XxA9TSTUhuP9I4zhEAYGlUyYXdnT7RrT52-Y80C0op8iI9DyaQ");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal line-clamp-1">Customer Segmentation</p>
+            <p class="text-[#9cabba] text-sm font-normal leading-normal line-clamp-2">Analyzed customer behavior to improve marketing strategies.</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB-dNxqX2yFM9QmuVxbybTF_uZaLoc7uAKkEiwcp96BeLTyE9kYBQnS76zsh9JJAmLxe_qhF9_d8ypcBlekoZmjuUSkZSom_6x6Tmquh4owKWna6ogvoeHRFBy7pTtLdgTZ_Yr5WcKIO8ASFbE21SD2tFs9sBgWZLJ1ebVIChQvlNdcbwcik1jxYJaR5w6BfkmvdDUPm7Hts9vJJoJzv4w_xu2UFJWHLKgA5jUm1jzI9JllyhqvO872a-5t0G_568_ktmuTVfgx6sE");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal line-clamp-1">Sales Forecasting</p>
+            <p class="text-[#9cabba] text-sm font-normal leading-normal line-clamp-2">Developed a model to predict sales trends based on historical data.</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCDoi1g_gEP9t3G_nq5C_2vD8y7fBC3W_IO047Z8FLkjQEhTrlhS8_6nHuMFU8JU_be4NidVi3Kwuz2cgZ-1TVyqbeidZFkack7jS0XjxC_CS6LYkitSxL0qdDBynZJrGO1j_dTmAr4Tx0bp-5Wjg-JjfZrurrh_udBt5H0IJIF_GEdIecMA5NcYFkHmnrXGREyrLZWvYJSMJXNH2UHg6_o30r4NKI1Bba94xmwcoa3gQsmi2sSyuH0YL3p9k6U_fuSq_Q5xFDsrL0");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal line-clamp-1">Churn Analysis</p>
+            <p class="text-[#9cabba] text-sm font-normal leading-normal line-clamp-2">Identified key factors influencing customer churn.</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDrmvzUheYoYyxeZdEzMGQMY-yWcfj2RC5XkukCucfGVQbSbJvR47wJ9nmqBE6OoX9XYyuaU1WfuB4Xf3dNPtDpJnJLYSrQeu1pNOfM1kfj5tX5jZYFd3ELM9AK5zOzYzSV48srYhGHaKgNGSRNpTWIVAT9bHbz2tZXI649ghi20xdlh9CBOZWT8toRlxPbL_RknxwVts8cRZB6UMUa7nYv_YVUJkbtGtaFeuMmjFLs_syEYpgNMCs2dCSiYW2mJbLzWEHGSoBUi0o");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal line-clamp-1">Supply Chain Optimization</p>
+            <p class="text-[#9cabba] text-sm font-normal leading-normal line-clamp-2">Optimized supply chain logistics using data-driven insights.</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-[#111418] px-4 min-h-[72px] py-2">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBU3OE3JAysIzehF78-WPfFdk_o-pQkZjdOXsRV2HLReor5gggnOgQRy0W69-WtC7kNBos3ESbcx5TWCIzGImmVHIFV2r43m-I2w9VIpe-y6V0G90ftabK6MYmZYgTpeiDR4MB52YV-0RxrK5ebHyd4sAj7ItyZ3BmS2sUXAN7jd0vE_E9xwJHpnzKHCCAerC9ds4Nd_ndJbFoJYsPIP12GqF1M0fColXGQXwJA8059iWMXhNJ1ndObETLgJdSi-a5whJQJMDgiMc4");'
+          ></div>
+          <div class="flex flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal line-clamp-1">Performance Dashboards</p>
+            <p class="text-[#9cabba] text-sm font-normal leading-normal line-clamp-2">Created interactive dashboards for real-time performance monitoring.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex gap-2 border-t border-[#283039] bg-[#1b2127] px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9cabba]" href="#">
+            <div class="text-[#9cabba] flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9cabba] text-xs font-medium leading-normal tracking-[0.015em]">Home</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-white" href="#">
+            <div class="text-white flex h-8 items-center justify-center" data-icon="Briefcase" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M152,112a8,8,0,0,1-8,8H112a8,8,0,0,1,0-16h32A8,8,0,0,1,152,112Zm80-40V200a16,16,0,0,1-16,16H40a16,16,0,0,1-16-16V72A16,16,0,0,1,40,56H80V48a24,24,0,0,1,24-24h48a24,24,0,0,1,24,24v8h40A16,16,0,0,1,232,72ZM96,56h64V48a8,8,0,0,0-8-8H104a8,8,0,0,0-8,8Zm120,57.61V72H40v41.61A184,184,0,0,0,128,136,184,184,0,0,0,216,113.61Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-white text-xs font-medium leading-normal tracking-[0.015em]">Projects</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9cabba]" href="#">
+            <div class="text-[#9cabba] flex h-8 items-center justify-center" data-icon="PresentationChart" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M216,40H136V24a8,8,0,0,0-16,0V40H40A16,16,0,0,0,24,56V176a16,16,0,0,0,16,16H79.36L57.75,219a8,8,0,0,0,12.5,10l29.59-37h56.32l29.59,37a8,8,0,1,0,12.5-10l-21.61-27H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,136H40V56H216V176ZM104,120v24a8,8,0,0,1-16,0V120a8,8,0,0,1,16,0Zm32-16v40a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm32-16v56a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9cabba] text-xs font-medium leading-normal tracking-[0.015em]">Skills</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#9cabba]" href="#">
+            <div class="text-[#9cabba] flex h-8 items-center justify-center" data-icon="Envelope" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#9cabba] text-xs font-medium leading-normal tracking-[0.015em]">Contact</p>
+          </a>
+        </div>
+        <div class="h-5 bg-[#1b2127]"></div>
+      </div>
+    </div>
+  </body>
+</html>
